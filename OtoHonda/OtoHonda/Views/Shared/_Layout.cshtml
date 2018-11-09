@@ -6,8 +6,8 @@
     <title>@ViewData["Title"] - OtoHonda</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+        @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />*@
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -17,38 +17,41 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: white;color:black">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" style="color: red" asp-controller="Home" asp-action="Index" class="navbar-brand">
-                    <img src="http://www.carlogos.org/logo/Honda-logo-1920x1080.png" width="50px" style="float: left"/>
-                    OtoHonda
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="col-lg"></div>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="About" asp-controller="Home">Lai thu</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
                 </a>
-            </div>
-            <div class="navbar-collapse collapse" >
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sản phẩm</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Bảng giá</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Chi phí mua xe</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Lái thử</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Tư vấn, hỗ trợ</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Tin tức</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                 
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+    <div class="body-content">
         @RenderBody()
         <hr />
         <footer>

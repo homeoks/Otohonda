@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Sendgrid" Version="9.10.0" />
   </ItemGroup>
 
 </Project>

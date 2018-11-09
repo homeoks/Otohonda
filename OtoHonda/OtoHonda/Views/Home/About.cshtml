@@ -1,7 +1,59 @@
-﻿@{
-    ViewData["Title"] = "About";
-}
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+﻿@model LaiThuModel
 
-<p>Use this area to provide additional information.</p>
+<div class="container">
+    <h1>ĐĂNG KÝ LÁI THỬ XE ÔTÔ HONDA</h1>
+    <p>Điền vào mẫu dưới đây và gửi yêu cầu của bạn. Đại lý Honda Ôtô của chúng tôi sẽ liên hệ với bạn để xác nhận ngày và thời gian đăng ký lái thử của bạn.</p>
+    <form method="post" asp-action="About"  class="form-horizontal" autocomplete="off">
+        <div class="form-group clearfix">
+            <h2>Thông tin xe</h2>
+            @*<p>
+                <label>Chọn dòng xe</label>
+                <select id="booking_select_vehicle_preview" name="vehicle" autocomplete="off">
+                    <option>Chọn</option>
+                    <option value="7">Xe Honda Jazz</option>
+                    <option value="8">Xe Honda City</option>
+                    <option value="5">Xe Honda HR-V</option>
+                    <option value="3">Xe Honda Civic</option>
+                    <option value="4">Xe Honda CRV</option>
+                    <option value="6">Xe Honda Accord</option>
+                </select>
+            </p>
+            <p class="booking-preview-vehicle">
+                <img class="id-7" src="/images/xe/thumb/jazz.png">
+                <img class="id-8" src="/images/xe/thumb/city.png">
+                <img class="id-5" src="https://hondaoto.info/images/xe/thumb/hr_v.png">
+                <img class="id-3" src="/images/xe/thumb/civic.png">
+                <img class="id-4" src="/images/xe/thumb/crv.png">
+                <img class="id-6" src="/images/xe/thumb/accord.png">
+            </p>*@
+            <div class="col-6">
+                <label>Dong xe (*)</label>
+                <input asp-for="DongXe" class=""   />
+            </div>
+        </div>
+        <div class="form-group clearfix">
+            <h2>Thông tin liên hệ</h2>
+            <div class="row">
+                <div class="col-6">
+                    <label>Họ tên (*)</label>
+                    <input asp-for="HoTen"    />
+                </div>
+                <div class="col-6">
+                    <label>Email (nếu có)</label>
+                    <input asp-for="Email"  class="form-control" type="text" />
+                </div>
+                <div class="col-6">
+                    <label>Điện thoại (*)</label>
+                    <input asp-for="DienThoai"    />
+                </div>
+                <div class="col-6">
+                    <label>Đăng ký lái thử tại (*)</label>
+                    <input asp-for="DiaChi"  />
+                </div>
+                <div class="col-6">
+                    <label></label><button type="submit" value="testdrive" >Gửi</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

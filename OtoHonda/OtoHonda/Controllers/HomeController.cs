@@ -21,6 +21,13 @@ namespace OtoHonda.Controllers
 
             return View();
         }
+        [HttpPost]
+        public IActionResult About([FromForm] LaiThuModel model)
+        {
+            var a=new MailGrid();
+            a.Main("bitwinreward@gmail.com", "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", model);
+            return View(model);
+        }
 
         public IActionResult Contact()
         {
