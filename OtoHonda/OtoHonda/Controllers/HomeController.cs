@@ -24,6 +24,18 @@ namespace OtoHonda.Controllers
         [HttpPost]
         public IActionResult About([FromForm] LaiThuModel model)
         {
+           
+            return View(model);
+        }
+        public IActionResult Laithu()
+        {
+            ViewData["Message"] = "Your application description page.";
+
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Laithu([FromForm] LaiThuModel model)
+        {
             var a=new MailGrid();
             a.Main("bitwinreward@gmail.com", "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", model);
             return View(model);

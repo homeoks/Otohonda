@@ -9,4 +9,14 @@
     <PackageReference Include="Sendgrid" Version="9.10.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Home\Laithu.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Home\" />
+  </ItemGroup>
+
 </Project>

@@ -37,6 +37,7 @@ E:\OHD\OtoHonda\OtoHonda\bin\Debug\netcoreapp2.1\OtoHonda.dll
 E:\OHD\OtoHonda\OtoHonda\bin\Debug\netcoreapp2.1\OtoHonda.pdb
 E:\OHD\OtoHonda\OtoHonda\bin\Debug\netcoreapp2.1\OtoHonda.Views.dll
 E:\OHD\OtoHonda\OtoHonda\bin\Debug\netcoreapp2.1\OtoHonda.Views.pdb
+E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\OtoHonda.csprojAssemblyReference.cache
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\OtoHonda.csproj.CoreCompileInputs.cache
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\OtoHonda.RazorAssemblyInfo.cache
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\OtoHonda.RazorAssemblyInfo.cs
@@ -48,6 +49,7 @@ E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\OtoHonda.RazorCoreGenerate.cach
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Home\Laithu.g.cshtml.cs
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 E:\OHD\OtoHonda\OtoHonda\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
