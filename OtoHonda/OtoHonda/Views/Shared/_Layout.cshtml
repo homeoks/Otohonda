@@ -7,7 +7,7 @@
 
     <environment include="Development">
         @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />*@
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/bootstrap-4.0.0/dist/css/bootstrap.min.css">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -17,9 +17,12 @@
     </environment>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:white !important">
     <div class="col-lg"></div>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">
+        <img src="http://xehondaotolongan.com/images/static/logohonda.jpg" style="width:50px;height:50px">
+        <span style="color:red">Honda Ôtô Long Cu</span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +30,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">
+                    Trang chu
+                    <span class="sr-only">(current)</span>
+                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" asp-action="Laithu" asp-controller="Home">Lai thu</a>
@@ -49,7 +55,7 @@
     </div>
 </nav>
 
-    <partial name="_CookieConsentPartial" />
+   
 
     <div class="body-content">
         @RenderBody()

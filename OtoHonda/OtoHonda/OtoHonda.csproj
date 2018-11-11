@@ -19,4 +19,9 @@
     <Folder Include="Pages\Home\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\bootstrap-4.0.0\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\bootstrap-4.0.0\.github\ISSUE_TEMPLATE.md" />
+  </ItemGroup>
+
 </Project>

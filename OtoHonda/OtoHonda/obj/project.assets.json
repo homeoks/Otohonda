@@ -5183,7 +5183,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.1": {
-      "sha512": "f8PKGcxiezL1RVqmnmrazj24Mj4KCTSXqwdotl7Lc+82h8iLV7ItxEIShTJakG7M9iw0ZuCocM0J/IhYesdQrg==",
+      "sha512": "BOK5fckW9v7xWjpEI6bPGwkjw10OPVASZcAa8HoWJo/0Mmg4Azddj92v8noU+YgvD/6zNZ9o/RiRXXKxk5rYwQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.1",
       "files": [
@@ -11533,23 +11533,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\binh.ho\\.nuget\\packages\\": {},
+    "C:\\Users\\nhans\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\OHD\\OtoHonda\\OtoHonda\\OtoHonda.csproj",
+      "projectUniqueName": "G:\\Oto\\Otohonda\\OtoHonda\\OtoHonda\\OtoHonda.csproj",
       "projectName": "OtoHonda",
-      "projectPath": "E:\\OHD\\OtoHonda\\OtoHonda\\OtoHonda.csproj",
-      "packagesPath": "C:\\Users\\binh.ho\\.nuget\\packages\\",
-      "outputPath": "E:\\OHD\\OtoHonda\\OtoHonda\\obj\\",
+      "projectPath": "G:\\Oto\\Otohonda\\OtoHonda\\OtoHonda\\OtoHonda.csproj",
+      "packagesPath": "C:\\Users\\nhans\\.nuget\\packages\\",
+      "outputPath": "G:\\Oto\\Otohonda\\OtoHonda\\OtoHonda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\binh.ho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nhans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11557,7 +11557,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
